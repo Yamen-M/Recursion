@@ -40,5 +40,7 @@ function MergeSort(arr){
 let a1 = [105, 79, 100, 110];
 let a2 = [3, 2, 1, 13, 8, 5, 0, 1];
 
-console.log(MergeSort(a1));
-console.log(MergeSort(a2));
+console.log("Before calling MergeSort on a1:\n" + a1);
+console.log("After calling MergeSort, a1:\n" + MergeSort(a1));
+console.log("\nBefore calling MergeSort on a2:\n" + a2);
+console.log("After calling MergeSort, a2:\n" + MergeSort(a2));

@@ -25,5 +25,5 @@ function Recursivefib(num){
     return [...prevFibSeq, nextFib]
 }
 
-console.log(fibs(8));
-console.log(Recursivefib(8));
+console.log("Calling Iterative Fibonacci: fibs(8): " + fibs(8));
+console.log("Calling Recursive Fibonacci: Recursivefib(8): " + Recursivefib(8));
